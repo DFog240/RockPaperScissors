@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UIImageView* aiImageView;
+    IBOutlet UIImageView* playerImageView;
+    int playerMove;
+    int aiMove;
+    int winner;
+    int player;
+    int ai;
+}
 
 @end
